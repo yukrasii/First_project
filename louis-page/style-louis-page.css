@@ -1,0 +1,31 @@
+body {
+  background-color: #bbbbbb;
+  
+}
+
+.hero-header {
+  text-align:center;
+  font-size: 40px;
+  
+}
+
+.nav-link {
+  color: inherit;
+  font-size: 24px;
+}
+
+.article-header {
+  font-size: 30px;
+}
+
+.article-text {
+  color: #444444;
+  font-size: 24px;
+  text-align:justify;
+  
+  
+}
+
+.italic-text-span {
+  font-style: italic;
+}
