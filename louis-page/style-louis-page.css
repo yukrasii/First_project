@@ -5,8 +5,13 @@ body {
 
 .hero-header {
   text-align:center;
-  font-size: 40px;
   
+  
+}
+
+.hero-image {
+  vertical-align: center;
+  height: 300px;
 }
 
 .nav-link {
