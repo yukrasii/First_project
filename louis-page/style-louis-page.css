@@ -12,7 +12,7 @@ body {
 .hero-image {
   display: block;
   margin:auto;
-  height: 300px;
+  width: 900px;
 }
 
 .nav-link {
@@ -24,11 +24,31 @@ body {
   font-size: 30px;
 }
 
-.article-text {
+.article-text-1 {
+
   color: #444444;
-  font-size: 24px;
-  text-align:justify;
+  font-size: 16x;
+  text-align: justify;
+  border: solid 1px #444444;
   
+  
+}
+
+.article-text-2 {
+
+  color: #444444;
+  font-size: 16x;
+  text-align: justify;
+  border: solid 1px #444444;
+  
+}
+
+.article-text-3 {
+
+  color: #444444;
+  font-size: 16x;
+  text-align: justify;
+  border: solid 1px #444444;
   
 }
 
