@@ -1,0 +1,28 @@
+
+
+.div {
+  margin: 200px 700px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  font-size: 0;
+
+}
+
+.div-black {
+  display: inline-block; 
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  
+  }
+
+.div-white {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      visibility: hidden;
+      
+      }
+
