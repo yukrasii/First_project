@@ -1,0 +1,101 @@
+table {
+    border-collapse: collapse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    text-align: center;
+         
+}
+
+
+thead 
+{ font-size: 20px;
+}
+
+tr th {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+thead :first-child { 
+    background-color: rgb(15, 75, 185);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+p :nth-child(1) {
+    font-size: 14px;
+}
+
+
+thead p {
+    line-height: 1.2;
+}
+
+
+thead tr :first-child {
+    /* width: 330px; */
+    
+}
+
+.data {
+    padding: 0px 50px 0px 100px;
+}
+
+
+thead tr :nth-last-child(-n+3) {
+    width: 220px;
+}
+
+
+tbody td {
+    color: rgb(85, 85, 85);
+}
+
+
+tbody tr:nth-child(even) td {
+    background-color: rgb(226, 226, 226);
+    padding: 20px 40px;
+}
+
+tbody tr th {
+    color: rgb(255, 255, 255);
+}
+
+
+tbody tr:nth-child(odd) th {
+    background-color: rgba(15, 104, 15, 0.699);
+    padding: 20px 40px;    
+}
+
+
+tbody tr:nth-child(even) th {
+    background-color: rgb(54, 184, 54);
+     
+}
+
+
+tfoot tr:nth-child(odd) th {
+    background-color: rgb(7, 77, 7);
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+tfoot button {
+    background-color: rgb(19, 71, 167);
+    border-radius: 5px;
+    padding: 8px 14px;
+    color: rgb(255, 255, 255);
+    border: none;
+    letter-spacing: 1px;    
+}
+
+.check {
+    color: rgb(3, 190, 3);
+}
+
+.cross {
+    color: red;
+}

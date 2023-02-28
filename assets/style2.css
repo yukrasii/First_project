@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+/* 
+POSITION 
+
+static - pyfxtyyz dkfcnbdjcns position по дефолту. Елемпент
+вважається непозиціонованим.
+Top, left, right bottom - не працюють.
+
+Якщо не Static, то елемент позиціонований., T,L,R,B починають працювати
+
+relative - відносне позиціонування. Елемент починає позиціонування відносно
+свого нормального місця в потоці.
+
+fixed - елемент позиціонується віднгосно wievport. Елемент вириваєтсья з потоку. Вісі 
+інші елементи його більше не помічають.
+
+absolute - елемент абсолютно позиціонований виривається з потоку, всі інші елементи не бачать його, TLRB
+вказують розташування відносно найближчого і ієрархії не-статичного батьківського елементу.
+
+*/
+
+.container {
+
+background-color: lime;
+height: 200px;
+width: 200px;
+margin: auto;
+position: relative;
+}
+
+.wrapper {
+position: absolute;
+left: 37%;
+top: 37.2%;    
+background-color: red;
+height: 50px;
+width: 50px;
+}
